@@ -1,0 +1,5 @@
+outs:
+- md5: 93a75abf43345050a2ffeb2e5ec86592
+  size: 116711
+  hash: md5
+  path: RYM exportcsv.csv
