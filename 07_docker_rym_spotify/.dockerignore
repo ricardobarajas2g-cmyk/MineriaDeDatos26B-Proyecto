@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+.env
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+logs
+tests
+scripts
+resultados
+*.zip
+*.md
+.DS_Store
+data/*.csv
+requirements.txt
+requirements-mlflow-opcional.txt

@@ -1,0 +1,9 @@
+{
+  "nombre_modelo": "RYMSpotifyClasificadorFavoritos",
+  "tipo": "Champion exportado de MLflow",
+  "modelo_uri": "models:/RYMSpotifyClasificadorFavoritos@champion",
+  "tracking_uri": "http://127.0.0.1:5001",
+  "sklearn_version": "1.9.1",
+  "fecha_exportacion_utc": "2026-11-22T08:28:38.614772+00:00",
+  "nota": "Origen: Model Registry de tu máquina. No reinicia automáticamente una API ya encendida."
+}
