@@ -1,0 +1,7 @@
+# Solo Fedora/Linux con SELinux enforcing; compartir las carpetas para esta tarea.
+services:
+  monitor:
+    volumes:
+      - ./data:/workspace/data:ro,Z
+      - ./logs:/workspace/logs:ro,Z
+      - ./reports:/workspace/reports:Z

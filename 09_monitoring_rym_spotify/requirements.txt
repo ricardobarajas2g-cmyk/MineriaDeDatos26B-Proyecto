@@ -1,0 +1,5 @@
+# Requiere Python 3.11 (o 3.12). Evidently >=0.7 usa API Dataset/Report actual.
+pandas>=2.2,<3
+numpy>=1.26,<3
+evidently==0.7.19
+pytest>=8,<10

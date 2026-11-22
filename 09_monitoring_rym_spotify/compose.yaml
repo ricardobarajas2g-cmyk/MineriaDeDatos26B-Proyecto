@@ -1,0 +1,12 @@
+services:
+  monitor:
+    build: .
+    image: rym-spotify-monitor:evidently
+    working_dir: /workspace
+    volumes:
+      - ./data:/workspace/data:ro
+      - ./logs:/workspace/logs:ro
+      - ./reports:/workspace/reports
+    command: ["python", "-m", "monitoring.generar_reporte",
+              "--referencia", "data/referencia_rym_spotify.csv",
+              "--log", "logs/predicciones.jsonl", "--salida", "reports"]

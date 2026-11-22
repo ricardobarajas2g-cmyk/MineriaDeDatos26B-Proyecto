@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+logs/*
+!logs/.gitkeep
+reports/*
+!reports/.gitkeep
+# Datos históricos y logs (contienen hábitos y consultas personales): se mantienen locales.
+data/*.csv
+data/*.json
+data/*.jsonl

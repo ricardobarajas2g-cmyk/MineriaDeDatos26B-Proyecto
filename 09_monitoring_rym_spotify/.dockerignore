@@ -1,0 +1,12 @@
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+reports/
+logs/
+data/
+tests/
+README.md
+GUIA_ALUMNO.md
+NOTAS_DOCENTE.md
