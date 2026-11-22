@@ -1,0 +1,5 @@
+outs:
+- md5: c33acfbf66e56ac11c1a7fb3587c8436
+  size: 125954
+  hash: md5
+  path: rym_spotify_con_generos.csv
